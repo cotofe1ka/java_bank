@@ -17,7 +17,7 @@ class BankAccount {
         this.ownerName = ownerName;
         this.balance = initialDeposit;
         this.isActive = true;
-        this.transactions = new ArrayList<>();
+        this.transactions = new ArrayList<>();//
 
         // Добавляем первую транзакцию - открытие счета
         if (initialDeposit > 0) {
